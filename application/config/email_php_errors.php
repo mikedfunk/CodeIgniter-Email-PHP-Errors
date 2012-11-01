@@ -9,11 +9,14 @@
  * @file email_php_errors.php
  */
 
+// to enable, set this to true
+$config['email_php_errors'] = false;
+
 $config['php_error_from'] = 'from@from.com';
 $config['php_error_to'] = 'to@to.com';
-$config['php_error_subject'] = 'PHP Error';
 
 // available shortcodes are {{severity}}, {{message}}, {{filepath}}, {{line}}
+$config['php_error_subject'] = 'PHP Error';
 $config['php_error_content'] = 'Severity: {{severity}} --> {{message}} File Path: {{filepath}} Line: {{line}}';
 
 /* End of file email_php_errors.php */
