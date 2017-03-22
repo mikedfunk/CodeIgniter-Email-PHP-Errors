@@ -1,3 +1,7 @@
+# ABANDONED
+
+This is for codeigniter <= 2.x. It will not work in CodeIgniter 3.x.
+
 # CodeIgniter-Email-PHP-Errors
 
 
